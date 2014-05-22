@@ -1,0 +1,2 @@
+<?php
+PtSes::auth('http');

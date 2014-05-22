@@ -1,0 +1,32 @@
+<?php
+$config = array(	
+		'debug'=>true,
+		'charset'=>'utf-8',
+		'version'=>'0.0.1',
+		'static_host'=>'',
+		'view'=>array(				
+				'theme'=>'default',
+		),
+		'admin'=>array(
+				'username'=>'admin',
+				'password'=>'admin888',
+		),
+		'db'=>array(
+				'project'=>array(
+						'type'=>'mysql',
+						'host'=>'localhost',
+						'port'=>'3306',
+						'username'=>'root',
+						'password'=>'root',
+						'dbname'=>'ptphp',
+				),
+				'default'=>array(
+						'type'=>'mysql',
+						'host'=>'localhost',
+						'port'=>'3306',
+						'username'=>'root',
+						'password'=>'root',
+						'dbname'=>'ptphp',
+				),
+		),
+);
